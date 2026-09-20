@@ -99,8 +99,8 @@ body {
   flex-direction: column;
 
   gap: 50px;
-  width: 100%;
-  padding: 20px;
+  width: 100vw;
+  padding: 15px;
 
 }
 
