@@ -81,7 +81,7 @@ body {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 500px;
+  height: 310px;
   background-color: var(--bg-secondary);
   z-index: -1;
   clip-path: polygon(0 0, 100% 0, 0 100%);
@@ -92,7 +92,7 @@ body {
   flex-direction: column;
   gap: 50px;
   width: 100vw;
-  padding: 0 15px;
+  padding: 15px;
 
 }
 
