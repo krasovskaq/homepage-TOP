@@ -46,7 +46,8 @@ body {
   background-color: var(--bg-main);
   min-height: 100vh;
   color: var(--font-color-black);
-  width: 100vw;
+  width: 100%;
+  max-width: 100%;
   gap: 50px;
   font-family: "Roboto";
 }
@@ -96,9 +97,10 @@ body {
 .main {
   display: flex;
   flex-direction: column;
+
   gap: 50px;
-  width: 100vw;
-  padding: 15px;
+  width: 100%;
+  padding: 20px;
 
 }
 
@@ -121,6 +123,7 @@ body {
   height: 300px;
   width: 100%;
   background-color: var(--crimson-red);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
   /* тут правила в хтмл уже писать желательно */
 }
 
@@ -165,21 +168,22 @@ body {
 .my-work__gallery {
   display: grid;
   flex-direction: column;
+  place-items: center;
   gap: 50px;
   grid-template-columns: repeat(1, 1fr);
 }
 
 .my-work__project-wrapper {
-  max-width: 230px;
   width: 100%;
-  min-height: 300px;
+  min-height: 400px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .my-work__project-image {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 200px;
+  height: 250px;
   text-align: center;
   font-size: var(--font-large);
   color: var(--font-color-white);
@@ -288,10 +292,7 @@ body {
     padding: 30px;
   }
 
-  .hero-section__about {
-
-    box-shadow: 0 0 0.2 black;
-  }
+  .hero-section__about {}
 
 
   .my-work__gallery {
