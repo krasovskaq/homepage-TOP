@@ -57,6 +57,10 @@ body {
   font-family: "Bodoni Moda";
 }
 
+.text {
+  font-size: var(--font-small-14);
+}
+
 .item-1 {
   background-color: var(--crimson-red);
 }
@@ -234,7 +238,6 @@ body {
   height: 15px;
 }
 
-.my-work__icon {}
 
 .my-work__title {
   margin-bottom: 20px;
@@ -253,8 +256,9 @@ body {
   font-size: 12px;
 }
 
-.contacts {
-  padding: 0 15px;
+
+.footer__contacts {
+  padding: 20px 15px 50px 15px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -262,6 +266,8 @@ body {
   background-color: var(--bg-secondary);
   font-style: normal;
   font-size: var(--font-small);
+  font-weight: 300;
+
 }
 
 .contacts__left {
@@ -275,14 +281,17 @@ body {
   font-size: var(--font-large);
 }
 
+
+
 .contacts__desc-text {
   font-size: var(--font-medium);
+
 }
 
 .c-item-1 {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+
 
 }
 
@@ -317,6 +326,16 @@ body {
   width: 100%;
   height: 400px;
   background-color: var(--crimson-red);
+}
+
+.footer-left__socials {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-left__socials-icon {
+  width: 100%;
+  height: 100%;
 }
 
 @media (min-width: 768px) {
