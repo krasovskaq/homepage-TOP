@@ -718,7 +718,8 @@ body {
     position: absolute;
     top: 90%;
     left: 0;
-    color: var(--font-color-black);
+    text-align: center;
+    width: 100%;
   }
 
   .my-work {
