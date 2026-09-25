@@ -158,9 +158,9 @@ body {
 
 
 .hero-section__about {
-
-
-  gap: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .hero-section__title {
